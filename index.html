@@ -8,6 +8,85 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <div class="contenedornav">
+            <nav>
+                <a href="">Home</a>
+                <a href="">All Travels</a>
+                <a class="travel" href="">Travels Discount</a>
+            </nav>
+            <h1>Mind Travel</h1>
+        </div>
+    </header>
+    <main>
+        <div class="parte1">
+            <h2>Check our discount!</h2>
+            <section class="contenedor1">
+                <h3>Canada</h3>
+                <img src="./images/canada.jpg" alt="Canada">
+                <p>Includes hotel and travel.</p>
+            </section>
+            <section class="contenedor2">
+                <h3>China</h3>
+                <img src="./images/china.jpg" alt="Canada">
+                <p>Includes hotel, trip and guide.</p>
+            </section>
+            <section class="contenedor2">
+                <h3>Australia</h3>
+                <img src="./images/city.jpg" alt="Canada">
+                <p>Only travel</p>
+            </section>
+        </div>
+        <div class="parte2">
+            <h2>Schedule</h2>
+            <div class="listas">
+                <div class="contlistas">
+                    <ul>
+                        <li>● Canada</li>
+                        <li>● China</li>
+                        <li>● Australia</li>
+                    </ul>
+                </div>                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Country</th>
+                            <th>Day</th>
+                            <th>Discount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Canada</td>
+                            <td>11/10</td>
+                            <td>20%</td>
+                        </tr>
+                        <tr>
+                            <td>China</td>
+                            <td>09/09</td>
+                            <td>10%</td>
+                        </tr>
+                        <tr>
+                            <td>Australia</td>
+                            <td>24/08</td>
+                            <td>40%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>           
+        </div>
+    </main>
+    <footer>
+        <h4>Cohor N</h4>
+        <form action="./Pages/show_data.html" method="get">
+            <fieldset>
+                <legend>You need more information?</legend>
+                <label for="mail">Email</label>
+                <input type="email" name="mail" id="mail">
+                <input  class="boton" type="button" value="Suscribe">
+            </fieldset>
+        </form>
+        <a href="mailto:mindtravel@mh.com">mindtravelmh.com</a>
+    </footer>   
 </body>
 </html>
